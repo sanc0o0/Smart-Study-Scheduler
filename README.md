@@ -19,7 +19,7 @@
 ### **✅ Project Status: Fully Functional & Production Ready**
 
 **Last Updated**: January 2025
-website : smart-study-scheduler-nextjs.vercel.app
+website : [smart-study-scheduler-nextjs.vercel.app](https://smart-study-scheduler-nextjs.vercel.app/)
 
 #### **✨ Recent Fixes & Improvements:**
 - ✅ **Build Issues Resolved**: Fixed all compilation errors and warnings
