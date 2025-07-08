@@ -19,6 +19,7 @@
 ### **✅ Project Status: Fully Functional & Production Ready**
 
 **Last Updated**: January 2025
+website : smart-study-scheduler-nextjs.vercel.app
 
 #### **✨ Recent Fixes & Improvements:**
 - ✅ **Build Issues Resolved**: Fixed all compilation errors and warnings
@@ -440,41 +441,6 @@ The application is fully responsive with:
 - **Fast Refresh**: Hot reloading during development for instant feedback
 - **Progressive Web App**: Install directly to device home screen
 - **Lazy Loading**: Components and images load on demand for better performance
-
-## 🚀 Deployment Options
-
-### Vercel (Recommended)
-```bash
-# Deploy with Vercel CLI
-npm i -g vercel
-vercel
-```
-
-### Netlify
-```bash
-# Build and deploy
-npm run build
-# Upload dist folder to Netlify
-```
-
-### Docker
-```dockerfile
-# Use the official Node.js image
-FROM node:18-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm ci --only=production
-COPY . .
-RUN npm run build
-EXPOSE 3000
-CMD ["npm", "start"]
-```
-
-### Other Platforms
-- Railway - Zero-config deployment
-- Heroku - Easy git-based deployment
-- AWS Amplify - Full-stack cloud platform
-- Any Node.js hosting service
 
 ## 🔄 Migration Guide
 
